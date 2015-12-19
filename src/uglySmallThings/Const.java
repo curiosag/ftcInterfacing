@@ -1,8 +1,5 @@
 package uglySmallThings;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Const {
 
 	public static final String rulename_sql_stmt = "sql_stmt";
@@ -15,5 +12,8 @@ public class Const {
 	
 	public static final String paramNameTable = "t";
 	public static final String paramNameColumn = "c";
+	
+	public static final char quoteChar = '\'';
+	
 	
 }
