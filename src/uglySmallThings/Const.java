@@ -15,5 +15,6 @@ public class Const {
 	public static final String paramNameColumn = "c";
 	
 	public static final char quoteChar = '\'';
+	public static int defaultQueryLimit = 1000;
 		
 }
