@@ -8,4 +8,9 @@ public class ModelElementCompletion extends AbstractCompletion {
 		super(completionType, displayName, parent);
 	}
 
+	@Override
+	public String getPatch() {
+		return displayName;
+	}
+	
 }

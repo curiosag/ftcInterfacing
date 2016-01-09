@@ -21,6 +21,8 @@ public abstract class AbstractCompletion {
 		this.parent = parent;
 	}
 
+	public abstract String getPatch();
+	
 	public void addChild(AbstractCompletion c) {
 		Check.notNull(c);
 		children.add(c);
@@ -36,6 +38,10 @@ public abstract class AbstractCompletion {
 	@Override
 	public String toString() {
 		return displayName;
+	}
+	
+	public boolean hasParameter() {
+		return getPatch().indexOf(uglySmallThings.Const.snippetParameterIndicator) >= 0;
 	}
 
 }

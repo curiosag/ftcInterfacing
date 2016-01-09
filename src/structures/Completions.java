@@ -20,6 +20,13 @@ public class Completions {
 		this.replacementBoundaries = replacementBoundaries;
 	}
 	
+	public static Completions create(Optional<OrderedIntTuple> replacementBoundaries, SqlCompletionType completionType, String name, String snippet)
+	{
+		Completions result = new Completions(replacementBoundaries);
+		result.addSnippet(completionType, name, snippet);
+		return result;
+	}
+	
 	public CodeSnippetCompletion addSnippet(SqlCompletionType completionType, String name, String snippet){
 		CodeSnippetCompletion  result = new CodeSnippetCompletion(completionType, name, snippet);
 		nameToCompletion.put(name, result);
@@ -58,15 +65,4 @@ public class Completions {
 		nameToCompletion.put(c.displayName, c);
 	}
 
-	public static String patchFromCompletion(AbstractCompletion completion) {
-		String result = null;
-		if (completion instanceof ModelElementCompletion)
-			result = ((ModelElementCompletion) completion).displayName;
-		else if (completion instanceof CodeSnippetCompletion)
-			result = ((CodeSnippetCompletion) completion).snippet;
-		else
-			Check.fail("unexpected type : " + completion.getClass().getName());
-		return result;
-	}
-	
 }

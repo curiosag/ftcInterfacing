@@ -10,5 +10,10 @@ public class CodeSnippetCompletion extends AbstractCompletion {
 		super(completionType, displayName, null);
 		this.snippet = snippet;
 	}
+
+	@Override
+	public String getPatch() {
+		return snippet;
+	}
 	
 }

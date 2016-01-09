@@ -13,5 +13,5 @@ public enum SqlCompletionType {
 		}
 
 	},
-	unknown, ftSql, aggregate, columnConditionExpr, columnConditionExprAfterColumn, orderBy, groupBy
+	unknown, ftSql, aggregate, columnConditionExpr, columnConditionExprAfterColumn, orderBy, groupBy, keywordWhere
 }
