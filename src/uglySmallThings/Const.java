@@ -24,5 +24,7 @@ public class Const {
 
 	public static final int MAX_LOGSIZE = 1024 * 5;
 	public static final String PREF_ID_CMDHISTORY = "commandHistory";
+
+	public static final int LEN_TABLEID = 39;
 	
 }
