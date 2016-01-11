@@ -14,6 +14,7 @@ public class ClientSettings {
 	public int dividerLocationH;
 	public int dividerLocationV;
 	public int defaultQueryLimit;
+	public int authTimeout;
 	public boolean lineNumbersEnabled;
 	public boolean highlightCurrentLine;
 	public boolean tabLines;
@@ -30,6 +31,7 @@ public class ClientSettings {
 	public final static String keySeparatorH = "separatorH";
 	public final static String keySeparatorV = "separatorV";
 	public final static String keyDefaultQueryLimit = "defaultQueryLimit";
+	public final static String keyAuthTimeout = "authTimeout";
 	public final static String keyLineNumbers = "lineNumbers";
 	public final static String keyLineHighlight = "lineHighlight";
 	public final static String keyTabLines = "tabLines";
@@ -57,6 +59,7 @@ public class ClientSettings {
 		prefs.putInt(keySeparatorH, dividerLocationH);
 		prefs.putInt(keySeparatorV, dividerLocationV);
 		prefs.putInt(keyDefaultQueryLimit, defaultQueryLimit);
+		prefs.putInt(keyAuthTimeout, authTimeout);
 		prefs.putBoolean(keyLineNumbers, lineNumbersEnabled);
 		prefs.putBoolean(keyLineHighlight, highlightCurrentLine);
 		prefs.putBoolean(keyTabLines, tabLines);
@@ -76,6 +79,7 @@ public class ClientSettings {
 		dividerLocationH = prefs.getInt(keySeparatorH, 450);
 		dividerLocationV = prefs.getInt(keySeparatorV, 300);
 		defaultQueryLimit = prefs.getInt(keyDefaultQueryLimit, 100);
+		authTimeout = prefs.getInt(keyAuthTimeout, 25);
 		lineNumbersEnabled = prefs.getBoolean(keyLineNumbers, false);
 		highlightCurrentLine = prefs.getBoolean(keyLineHighlight, false);
 		tabLines = prefs.getBoolean(keyTabLines, false);

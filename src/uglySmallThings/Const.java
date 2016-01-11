@@ -8,10 +8,10 @@ public class Const {
 	 * debug switches
 	 */
 	public static final boolean debugQueryHandler = false;
-	public static final boolean debugCursorContextListener = true;
-	public static final boolean debugSyntaxElementListener = true;
+	public static final boolean debugCursorContextListener = false;
+	public static final boolean debugSyntaxElementListener = false;
 	public static final boolean debugNameRecognition = false;
-	public static final boolean debugCursorContext = true;
+	public static final boolean debugCursorContext = false;
 	
 	/**
 	 *  snippets

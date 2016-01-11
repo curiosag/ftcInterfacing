@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Dictionary;
 import java.util.List;
 
+import structures.ConnectionStatus;
 import structures.QueryResult;
 import structures.TableInfo;
 
@@ -13,7 +14,7 @@ public interface Connector {
 
   void clearStoredLoginData();
 	
-  void reset(Dictionary<String, String> connectionInfo) ;
+  ConnectionStatus reset(Dictionary<String, String> connectionInfo) ;
 	
   List<TableInfo> getTableInfo();
 
