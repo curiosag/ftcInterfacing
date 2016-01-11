@@ -8,9 +8,10 @@ public class Const {
 	 * debug switches
 	 */
 	public static final boolean debugQueryHandler = false;
-	public static final boolean debugCursorContextListener = false;
-	public static final boolean debugSyntaxElementListener = false;
+	public static final boolean debugCursorContextListener = true;
+	public static final boolean debugSyntaxElementListener = true;
 	public static final boolean debugNameRecognition = false;
+	public static final boolean debugCursorContext = true;
 	
 	/**
 	 *  snippets
@@ -26,5 +27,6 @@ public class Const {
 	public static final String PREF_ID_CMDHISTORY = "commandHistory";
 
 	public static final int LEN_TABLEID = 39;
+
 	
 }
