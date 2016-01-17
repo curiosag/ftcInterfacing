@@ -1,4 +1,4 @@
-package structures;
+package org.cg.ftc.shared.structures;
 
 import java.util.prefs.Preferences;
 

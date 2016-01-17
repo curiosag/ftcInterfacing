@@ -1,11 +1,11 @@
-package structures;
+package org.cg.ftc.shared.structures;
 
 import javax.swing.table.TableModel;
 
-import com.google.common.base.Optional;
+import org.cg.common.check.Check;
+import org.cg.common.http.HttpStatus;
 
-import cg.common.check.Check;
-import cg.common.http.HttpStatus;
+import com.google.common.base.Optional;
 
 public class QueryResult {
 

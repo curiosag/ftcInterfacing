@@ -1,4 +1,4 @@
-package uglySmallThings;
+package org.cg.ftc.shared.uglySmallThings;
 
 public class Const {
 

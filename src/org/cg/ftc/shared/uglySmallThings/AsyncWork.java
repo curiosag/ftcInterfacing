@@ -1,4 +1,4 @@
-package uglySmallThings;
+package org.cg.ftc.shared.uglySmallThings;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -7,8 +7,8 @@ import java.util.concurrent.Future;
 
 import javax.swing.SwingWorker;
 
-import cg.common.interfaces.Continuation;
-import cg.common.threading.Function;
+import org.cg.common.interfaces.Continuation;
+import org.cg.common.threading.Function;
 
 public class AsyncWork {
 

@@ -1,14 +1,14 @@
-package structures;
+package org.cg.ftc.shared.structures;
 
 import java.util.HashMap;
 import java.util.List;
 
-import com.google.common.base.Optional;
+import org.cg.common.check.Check;
+import org.cg.common.structures.OrderedIntTuple;
+import org.cg.common.util.CollectionUtil;
+import org.cg.ftc.shared.interfaces.SqlCompletionType;
 
-import cg.common.check.Check;
-import gc.common.structures.OrderedIntTuple;
-import interfaces.SqlCompletionType;
-import util.CollectionUtil;
+import com.google.common.base.Optional;
 
 public class Completions {
 	private HashMap<String, AbstractCompletion> nameToCompletion = new HashMap<String, AbstractCompletion>(); 

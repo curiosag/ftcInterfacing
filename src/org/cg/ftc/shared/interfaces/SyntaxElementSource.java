@@ -1,4 +1,4 @@
-package interfaces;
+package org.cg.ftc.shared.interfaces;
 
 import java.util.List;
 

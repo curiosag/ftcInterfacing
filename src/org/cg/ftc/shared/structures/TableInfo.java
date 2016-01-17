@@ -1,6 +1,7 @@
-package structures;
+package org.cg.ftc.shared.structures;
 
 import java.util.List;
+
 
 public class TableInfo {
     public final String name;

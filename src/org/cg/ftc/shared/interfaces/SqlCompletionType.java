@@ -1,4 +1,4 @@
-package interfaces;
+package org.cg.ftc.shared.interfaces;
 
 public enum SqlCompletionType {
 	categorySnippet, table, column {

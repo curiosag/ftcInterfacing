@@ -1,4 +1,4 @@
-package uglySmallThings;
+package org.cg.ftc.shared.uglySmallThings;
 
 import com.google.common.eventbus.EventBus;
 

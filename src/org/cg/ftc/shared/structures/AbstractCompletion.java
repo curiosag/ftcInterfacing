@@ -1,11 +1,10 @@
-package structures;
+package org.cg.ftc.shared.structures;
 
 import java.util.LinkedList;
 import java.util.List;
 
-import cg.common.check.Check;
-import interfaces.SqlCompletionType;
-
+import org.cg.common.check.Check;
+import org.cg.ftc.shared.interfaces.SqlCompletionType;
 
 public abstract class AbstractCompletion {
 
@@ -41,7 +40,7 @@ public abstract class AbstractCompletion {
 	}
 	
 	public boolean hasParameter() {
-		return getPatch().indexOf(uglySmallThings.Const.snippetParameterIndicator) >= 0;
+		return getPatch().indexOf(org.cg.ftc.shared.uglySmallThings.Const.snippetParameterIndicator) >= 0;
 	}
 
 }

@@ -1,4 +1,4 @@
-package uglySmallThings;
+package org.cg.ftc.shared.uglySmallThings;
 
 import java.io.FileWriter;
 import java.io.IOException;

@@ -1,13 +1,13 @@
 
-package interfaces;
+package org.cg.ftc.shared.interfaces;
 
 import java.io.IOException;
 import java.util.Dictionary;
 import java.util.List;
 
-import structures.ConnectionStatus;
-import structures.QueryResult;
-import structures.TableInfo;
+import org.cg.ftc.shared.structures.ConnectionStatus;
+import org.cg.ftc.shared.structures.QueryResult;
+import org.cg.ftc.shared.structures.TableInfo;
 
 
 public interface Connector {

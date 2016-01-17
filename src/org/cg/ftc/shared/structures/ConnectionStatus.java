@@ -1,8 +1,8 @@
-package structures;
+package org.cg.ftc.shared.structures;
+
+import org.cg.common.http.HttpStatus;
 
 import com.google.common.base.Optional;
-
-import cg.common.http.HttpStatus;
 
 public class ConnectionStatus {
 

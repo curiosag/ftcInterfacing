@@ -1,6 +1,6 @@
-package structures;
+package org.cg.ftc.shared.structures;
 
-import interfaces.SqlCompletionType;
+import org.cg.ftc.shared.interfaces.SqlCompletionType;
 
 public class CodeSnippetCompletion extends AbstractCompletion {
 

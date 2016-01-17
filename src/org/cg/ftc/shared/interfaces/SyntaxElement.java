@@ -1,10 +1,9 @@
-package interfaces;
+package org.cg.ftc.shared.interfaces;
 
 import java.util.List;
 
 import org.antlr.v4.runtime.Token;
-
-import cg.common.check.Check;
+import org.cg.common.check.Check;
 
 public class SyntaxElement implements Comparable {
 
