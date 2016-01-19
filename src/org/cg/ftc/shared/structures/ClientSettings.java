@@ -68,8 +68,8 @@ public class ClientSettings {
 
 	private ClientSettings(Class<?> carrierNode) {
 		prefs = Preferences.userNodeForPackage(carrierNode);
-		clientId = prefs.get(keyClientId, "not set");
-		clientSecret = prefs.get(keyClientSecret, "not set");
+		clientId = prefs.get(keyClientId, "");
+		clientSecret = prefs.get(keyClientSecret, "");
 		pathScriptFile = prefs.get(keyPathScriptFile, "");
 		pathCsvFile = prefs.get(keyPathCsvFile, "");
 		x = prefs.getInt(keyX, 5);
